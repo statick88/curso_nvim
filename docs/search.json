@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Curso Completo de Neovim: De Novato a Maestro",
+    "section": "",
+    "text": "Curso Completo de Neovim: De Novato a Maestro",
+    "crumbs": [
+      "Unidad 0: Introducción a Neovim",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Curso Completo de Neovim: De Novato a Maestro</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#descripción-del-curso",
+    "href": "index.html#descripción-del-curso",
+    "title": "Curso Completo de Neovim: De Novato a Maestro",
+    "section": "Descripción del Curso",
+    "text": "Descripción del Curso\nEste curso tiene como objetivo llevar al estudiante desde un nivel básico de comprensión de Neovim hasta un nivel avanzado de personalización, edición eficiente y automatización del flujo de trabajo. Usaremos Lazy como gestor de plugins, junto con herramientas como LazyGit y Gitsigns para optimizar el trabajo en Git, y exploraremos cómo integrar Neovim con herramientas modernas de desarrollo.",
+    "crumbs": [
+      "Unidad 0: Introducción a Neovim",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Curso Completo de Neovim: De Novato a Maestro</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#planificación-del-curso",
+    "href": "index.html#planificación-del-curso",
+    "title": "Curso Completo de Neovim: De Novato a Maestro",
+    "section": "Planificación del Curso",
+    "text": "Planificación del Curso\n\nMódulo 1: Introducción a Neovim\nObjetivo: Familiarizarse con Neovim y sentar las bases de su configuración y personalización.\nLección 1: Introducción al Curso y Objetivos\n\nHistoria de Vim y Neovim.\nBeneficios y características de Neovim.\nEstructura del curso y recursos adicionales.\n\nLección 2: Instalación de Neovim y Configuración Básica\n\nInstalación en Windows y Linux.\nCreación de la carpeta de configuración y archivos principales (init.lua o init.vim).\nInstalación de Lazy como gestor de plugins.\n\n\n\nMódulo 2: Fundamentos de Neovim y Comandos Básicos\nObjetivo: Aprender los comandos esenciales de Neovim y la navegación básica.\nLección 1: Navegación y Modos de Neovim\n\nModos de operación: Normal, Insert, Visual, Command.\nNavegación en el archivo y comandos básicos de movimiento.\n\nLección 2: Edición de Texto y Búsqueda en Neovim\n\nComandos para edición, eliminación, y copia de texto.\nBúsqueda y reemplazo de texto en Neovim.\n\nLección 3: Configuración Inicial de Opciones\n\nConfiguración de indentación, color de fondo y fuentes.\nIntroducción al archivo init.lua y a las opciones de personalización.\n\n\n\nMódulo 3: Configuración y Personalización de Plugins con Lazy\nObjetivo: Instalar y configurar plugins clave que aumentarán la eficiencia en Neovim.\nLección 1: Gestión de Plugins con Lazy\n\nInstalación y configuración de Lazy.\nEstrategias para organizar plugins en Lazy.\n\nLección 2: Exploración de Plugins de Edición y Productividad\n\nInstalación de plugins como nvim-treesitter para resaltado avanzado de sintaxis y comment.nvim para gestión de comentarios.\nConfiguración y personalización de cada plugin para adaptarlos al flujo de trabajo.\n\nLección 3: Integración con Git usando LazyGit y Gitsigns\n\nInstalación de LazyGit y configuración de accesos directos para su uso en Neovim.\nUso de Gitsigns para la visualización de cambios en el código.\nPráctica guiada de flujos de trabajo comunes con Git.\n\n\n\nMódulo 4: Dominio de Edición y Navegación Avanzada en Neovim\nObjetivo: Profundizar en técnicas de edición avanzada y optimizar la navegación.\nLección 1: Movimientos Avanzados y Edición con Macros\n\nNavegación rápida por archivos grandes y uso de marcadores.\nCreación y uso de macros para automatizar tareas repetitivas.\n\nLección 2: Uso de Bufers, Ventanas y Pestañas\n\nExplicación de buffers, ventanas y pestañas.\nConfiguración para alternar y organizar múltiples archivos eficientemente.\n\nLección 3: Configuración de Snippets con LuaSnip\n\nInstalación de LuaSnip y configuración de snippets personalizados.\nCreación de snippets de código para lenguajes específicos.\n\n\n\nMódulo 5: Configuración Avanzada y Personalización en Neovim\nObjetivo: Explorar configuraciones avanzadas y aprender a personalizar Neovim a un alto nivel.\nLección 1: Personalización de Atajos de Teclado y Mapeos\n\nCómo crear mapeos personalizados en init.lua.\nIntegración de mapeos para plugins instalados.\n\nLección 2: Configuración de LSP (Language Server Protocol)\n\nExplicación del concepto de LSP y su utilidad en la autocompletación y análisis de código.\nInstalación y configuración del cliente de LSP en Neovim para varios lenguajes.\n\nLección 3: Exploración de nvim-cmp y telescope.nvim\n\nConfiguración de nvim-cmp para autocompletado inteligente.\nUso de telescope.nvim para buscar archivos, símbolos y contenido en el proyecto.\n\n\n\nMódulo 6: Integración y Automatización del Flujo de Trabajo\nObjetivo: Aprender a integrar Neovim con otras herramientas y automatizar tareas para mejorar la productividad.\nLección 1: Integración con Terminal Embebido y Comandos Personalizados\n\nCómo usar el terminal integrado en Neovim.\nEjemplos de comandos personalizados para tareas frecuentes.\n\nLección 2: Integración con Herramientas Externas y Workflows\n\nIntegración de Neovim con herramientas como Git, Docker, y linters.\nEjemplos prácticos de automatización en flujos de desarrollo.\n\nLección 3: Configuración de Tareas y Scripts Automatizados\n\nConfiguración de scripts en Neovim para realizar tareas comunes.\nEjemplos de tareas automáticas al guardar, abrir o cerrar archivos.\n\n\n\nMódulo 7: Proyecto Final y Optimización de Configuración\nObjetivo: Consolidar los conocimientos adquiridos en un proyecto práctico y optimizar la configuración final de Neovim.\nLección 1: Creación de una Configuración Modular de Neovim\n\nOrganización de los archivos de configuración en módulos.\nMejores prácticas para mantener una configuración escalable y organizada.\n\nLección 2: Proyecto Final - Entorno de Desarrollo Completo en Neovim\n\nLos estudiantes crearán su propio entorno de desarrollo completo en Neovim.\nIntegración de todas las herramientas y plugins utilizados en el curso.\nPersonalización final para optimizar el flujo de trabajo.\n\nLección 3: Exportación y Respaldo de la Configuración\n\nCómo versionar la configuración en GitHub.\nCompartir configuraciones y mantener un respaldo en caso de migración.",
+    "crumbs": [
+      "Unidad 0: Introducción a Neovim",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Curso Completo de Neovim: De Novato a Maestro</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#materiales-de-apoyo",
+    "href": "index.html#materiales-de-apoyo",
+    "title": "Curso Completo de Neovim: De Novato a Maestro",
+    "section": "Materiales de Apoyo",
+    "text": "Materiales de Apoyo\n\nRepositorio en GitHub: Ejemplos de configuración, ejercicios y soluciones.\nDocumentación Complementaria: Referencias a la documentación oficial de Neovim, Lazy, LSP, y otros plugins.\nGuías de Instalación: Instrucciones específicas para instalar LazyGit, Gitsigns y otros complementos en diferentes sistemas operativos.\nEjercicios Prácticos y Desafíos: Actividades diseñadas para aplicar lo aprendido en cada módulo.",
+    "crumbs": [
+      "Unidad 0: Introducción a Neovim",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Curso Completo de Neovim: De Novato a Maestro</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#tareas-adicionales-y-proyectos",
+    "href": "index.html#tareas-adicionales-y-proyectos",
+    "title": "Curso Completo de Neovim: De Novato a Maestro",
+    "section": "Tareas Adicionales y Proyectos",
+    "text": "Tareas Adicionales y Proyectos\n\nPrácticas recomendadas al final de cada módulo para afianzar los conocimientos.\nProyectos opcionales como configurar Neovim para proyectos específicos (por ejemplo, proyectos en Python, JavaScript, etc.).",
+    "crumbs": [
+      "Unidad 0: Introducción a Neovim",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Curso Completo de Neovim: De Novato a Maestro</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#soporte-y-comunidad",
+    "href": "index.html#soporte-y-comunidad",
+    "title": "Curso Completo de Neovim: De Novato a Maestro",
+    "section": "Soporte y Comunidad",
+    "text": "Soporte y Comunidad\n\nAcceso a foros y grupo de Discord: Para resolver dudas, compartir configuraciones y obtener feedback.\nRecursos adicionales: Artículos, guías y tutoriales que complementan el curso.",
+    "crumbs": [
+      "Unidad 0: Introducción a Neovim",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Curso Completo de Neovim: De Novato a Maestro</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad0/1_intro.html",
+    "href": "unidades/unidad0/1_intro.html",
+    "title": "Introduction a Neovim",
+    "section": "",
+    "text": "Nvim es una herramienta que te permite editar texto de forma eficiente. Es un editor de texto que se puede personalizar para adaptarse a tus necesidades. A diferencia de otros editores de texto, Nvim se puede utilizar completamente desde el teclado, lo que lo hace muy eficiente para los programadores y escritores.",
+    "crumbs": [
+      "Unidad 0: Introducción a Neovim",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction a Neovim</span>"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Acerca de mi",
+    "section": "",
+    "text": "¡Hola! Soy Diego Saavedra, un experto en desarrollo avanzado de software e investigación. Mi amplia experiencia abarca diversas tecnologías, incluyendo Python (Django, Flask, Fast API) y JavaScript (Express, Next, React, Nestjs), así como también tengo conocimientos sólidos en bases de datos, arquitecturas de software y liderazgo ágil.\nMi pasión por la innovación, el desarrollo y la educación me ha llevado a destacarme como un profesional versátil e invaluable. Estoy constantemente listo para enfrentar desafíos técnicos y liderar proyectos de vanguardia.\nMi formación académica incluye el ser estudiante de Doctorado centrado en la inteligencia artificial, estoy enfocando mi investigación en la detección de TDA+H y Asperger mediante Visión Artificial a traves de algoritmos de Inteligencia Artificial. Además, poseo una Maestría en Ciencias de la Computación, con un enfoque en el Deep Learning (Convolutional Neural Network) y la Atención.\nCon esta sólida base académica y experiencia profesional, estoy preparado para aportar soluciones innovadoras y liderar equipos hacia el éxito en cualquier proyecto tecnológico que se me presente.\nAdemás, tengo experiencia en el desarrollo móvil utilizando Flutter y en la implementación de soluciones backend utilizando servicios Backend as a Service (BaaS) como Firebase y Supabase.\nEn el ámbito de la educación, he sido docente de programación en institutos y universidades, actualmente soy parte del Departamento de Ciencias de la Computación en la Universidad de las Fuerzas Armadas ESPE, donde he impartido asignaturas de desarrollo de Software Web con tecnologías como JavaScript, Java y C# asi como sus respectivos frameworks.\nMi experiencia en el desarrollo de software y la investigación me ha permitido adquirir habilidades de liderazgo, trabajo en equipo y comunicación efectiva. Estoy seguro de que mi experiencia y habilidades serán de gran valor para cualquier proyecto tecnológico que se me presente.\nEn este curso aprenderás a desarrollar aplicaciones web con Python y Django, una de las tecnologías más populares y poderosas para el desarrollo de aplicaciones web. A lo largo del curso, aprenderás a crear aplicaciones web desde cero, utilizando Django y Python, y a implementar funcionalidades avanzadas como integración con APIs externas y mucho más.\nTambien veremos tecnologías como Git, Github, Docker, Python, Django, Django Rest Framework, Html5, Css3, JavaScript, Nodejs, Npm y React.\n\n\n¡Estoy emocionado de compartir contigo mi conocimiento y experiencia en el desarrollo de aplicaciones web con Python y Django!"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "Licencia",
+    "section": "",
+    "text": "Uso Permitido\nPuedes utilizar el contenido de este curso con fines educativos y personales. Puedes modificar los ejemplos y el código proporcionado para tus propias necesidades de aprendizaje."
+  },
+  {
+    "objectID": "license.html#restricciones",
+    "href": "license.html#restricciones",
+    "title": "Licencia",
+    "section": "Restricciones",
+    "text": "Restricciones\nNo tienes permitido redistribuir, vender o utilizar el contenido de este curso para fines comerciales sin el permiso explícito de [Nombre de la Compañía]. Además, no tienes permitido copiar o duplicar el contenido del curso y presentarlo como propio."
+  },
+  {
+    "objectID": "license.html#atribución",
+    "href": "license.html#atribución",
+    "title": "Licencia",
+    "section": "Atribución",
+    "text": "Atribución\nSi compartes los ejemplos, los fragmentos de código o el contenido de este curso en línea, te pedimos que proporciones la atribución adecuada a [Nombre de la Compañía]."
+  },
+  {
+    "objectID": "license.html#cambios-en-la-licencia",
+    "href": "license.html#cambios-en-la-licencia",
+    "title": "Licencia",
+    "section": "Cambios en la Licencia",
+    "text": "Cambios en la Licencia\n[Nombre de la Compañía] se reserva el derecho de modificar los términos de esta licencia en cualquier momento. Cualquier cambio se reflejará en esta página.\nGracias por respetar nuestros derechos de autor y por tu comprensión."
+  }
+]

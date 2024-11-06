@@ -1,0 +1,8 @@
+:::{.justify}
+# Introduction a Neovim
+
+Nvim es una herramienta que te permite editar texto de forma eficiente. Es un editor de texto que se puede personalizar para adaptarse a tus necesidades. A diferencia de otros editores de texto, Nvim se puede utilizar completamente desde el teclado, lo que lo hace muy eficiente para los programadores y escritores.
+
+
+
+:::

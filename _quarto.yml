@@ -1,0 +1,77 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Curso Completo de Neovim: De Novato a Maestro"
+  author: "Diego Saavedra"
+  output-file: "curso_completo_neovim"  
+  date: today
+  date-format: medium
+  favicon: logo.png
+  description: Curso completo de Neovim desde cero hasta nivel avanzado. Aprende a configurar Neovim para ser más productivo en tu día a día.
+  keyword: Neovim, Vim, Editor de Texto, Desarrollo de Software, Programación, Productividad
+  url: https://github.com/statick88/curso_nvim
+  page-navigation: true
+  sidebar: 
+    logo: logo.png
+    search: true
+    collapse-level: 1
+
+  repo-subdir: book
+  sharing: [twitter, linkedin]
+  downloads: [pdf, epub]
+  image: logo.jpeg
+
+  page-footer:
+    center: 
+      - text: "About"
+        href: about.qmd
+      - text: "License"
+        href: license.qmd
+        
+  chapters:
+
+    - part: "Unidad 0: Introducción a Neovim"
+      chapters:
+      - index.qmd
+      - unidades/unidad0/1_intro.qmd
+
+bibliography: references.bib
+biblio-style: "apalike"
+
+format:
+  html:
+    number-sections: false
+    theme: 
+      dark:  solar #slate, darkly, solar, superhero, vapor
+      # light: cosmo
+    number-depth: 4
+    link-external-icon: true
+    link-external-newwindow: true
+    css: css/styles.css
+
+  pdf:
+    documentclass: scrreprt
+    classoption: ["onepage", "openany"]
+    papersize: a4
+    toc: true
+    margin-top: 35mm
+    margin-left: 30mm
+    margin-bottom: 30mm
+    margin-right: 30mm
+    titlepage-geometry: 
+      - top=35mm
+      - bottom=30mm
+      - right=30mm
+      - left=30mm
+  epub: 
+    belongs-to-collection: "Curso Completo de Neovim"
+    group-position: 0
+    creator: "Lcdo. Diego Saavedra Mgtr."
+    rights: "© Statick | 2024"
+    fig-responsive: true
+    number-sections: true
+
+filters:
+  - naquiz
