@@ -66,14 +66,80 @@
     ]
   },
   {
-    "objectID": "unidades/unidad0/1_intro.html",
-    "href": "unidades/unidad0/1_intro.html",
-    "title": "Introduction a Neovim",
-    "section": "",
-    "text": "Nvim es una herramienta que te permite editar texto de forma eficiente. Es un editor de texto que se puede personalizar para adaptarse a tus necesidades. A diferencia de otros editores de texto, Nvim se puede utilizar completamente desde el teclado, lo que lo hace muy eficiente para los programadores y escritores.",
+    "objectID": "unidades/unidad0/1_intro.html#historia-de-vim-y-neovim.",
+    "href": "unidades/unidad0/1_intro.html#historia-de-vim-y-neovim.",
+    "title": "Lección 1: Introducción al Curso y Objetivos",
+    "section": "Historia de Vim y Neovim.",
+    "text": "Historia de Vim y Neovim.\nVim es un editor de texto basado en el editor de texto vi, que fue creado por Bram Moolenaar en 1991. Vim es un editor de texto muy popular y ampliamente utilizado en el mundo de la programación y la informática.\nNeovim es un fork de Vim que fue creado en 2014 por Thiago de Arruda. Neovim se creó con el objetivo de mejorar y modernizar Vim, y ha introducido varias características y mejoras que no están presentes en Vim.",
     "crumbs": [
       "Unidad 0: Introducción a Neovim",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction a Neovim</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>**Lección 1**: Introducción al Curso y Objetivos</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad0/1_intro.html#beneficios-y-características-de-neovim.",
+    "href": "unidades/unidad0/1_intro.html#beneficios-y-características-de-neovim.",
+    "title": "Lección 1: Introducción al Curso y Objetivos",
+    "section": "Beneficios y características de Neovim.",
+    "text": "Beneficios y características de Neovim.\nAlgunos de los beneficios y características de Neovim son:\n\nMejor rendimiento y velocidad.\nSoporte para plugins y extensiones.\nSoporte para lenguajes de programación modernos.\nSoporte para terminales modernos.\nSoporte para la integración con herramientas de desarrollo modernas.",
+    "crumbs": [
+      "Unidad 0: Introducción a Neovim",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>**Lección 1**: Introducción al Curso y Objetivos</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad0/1_intro.html#estructura-del-curso-y-recursos-adicionales.",
+    "href": "unidades/unidad0/1_intro.html#estructura-del-curso-y-recursos-adicionales.",
+    "title": "Lección 1: Introducción al Curso y Objetivos",
+    "section": "Estructura del curso y recursos adicionales.",
+    "text": "Estructura del curso y recursos adicionales.\nEl curso está dividido en varios módulos, cada uno de los cuales cubrirá un aspecto diferente de Neovim. Al final de cada módulo, habrá ejercicios y tareas para que los estudiantes practiquen lo que han aprendido.\nAdemás, se proporcionarán recursos adicionales, como enlaces a documentación, tutoriales y videos, para que los estudiantes puedan profundizar en los temas que les interesen.\n¡Vamos a empezar!",
+    "crumbs": [
+      "Unidad 0: Introducción a Neovim",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>**Lección 1**: Introducción al Curso y Objetivos</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad0/2_instalacion.html#instalación-de-neovim-en-windows.",
+    "href": "unidades/unidad0/2_instalacion.html#instalación-de-neovim-en-windows.",
+    "title": "Lección 2: Instalación de Neovim y Configuración Básica",
+    "section": "Instalación de Neovim en Windows.",
+    "text": "Instalación de Neovim en Windows.\nPara instalar Neovim en Windows, puedes seguir los siguientes pasos:\n\nActivar WSL en Windows.\nInstalar una distribución de Linux en WSL.\nInstalar Neovim en la distribución de Linux.\nInstalar un terminal que soporte WSL como Windows Terminal o Hyper.\nConfigurar el terminal para que use Neovim en WSL.\n\n\n\n\n\n\n\nTip\n\n\n\nPara instalar Neovim en WSL, puedes seguir los siguientes pasos:\n\nAbre una terminal de WSL.\nActualiza el sistema:\n\nsudo apt update\n\nInstala Neovim:\n\nsudo apt install neovim",
+    "crumbs": [
+      "Unidad 0: Introducción a Neovim",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>**Lección 2**: Instalación de Neovim y Configuración Básica</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad0/2_instalacion.html#instalación-de-neovim-en-linux.",
+    "href": "unidades/unidad0/2_instalacion.html#instalación-de-neovim-en-linux.",
+    "title": "Lección 2: Instalación de Neovim y Configuración Básica",
+    "section": "Instalación de Neovim en Linux.",
+    "text": "Instalación de Neovim en Linux.\nPara instalar Neovim en Linux, puedes seguir los siguientes pasos:\n\nAbre una terminal.\nActualiza el sistema:\n\nsudo apt update\n\nInstala Neovim:\n\nsudo apt install neovim\n\nVerifica la instalación:\n\nnvim --version",
+    "crumbs": [
+      "Unidad 0: Introducción a Neovim",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>**Lección 2**: Instalación de Neovim y Configuración Básica</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad0/2_instalacion.html#creación-de-la-carpeta-de-configuración-y-archivos-principales-con-lazyvim.",
+    "href": "unidades/unidad0/2_instalacion.html#creación-de-la-carpeta-de-configuración-y-archivos-principales-con-lazyvim.",
+    "title": "Lección 2: Instalación de Neovim y Configuración Básica",
+    "section": "Creación de la carpeta de configuración y archivos principales con LazyVim.",
+    "text": "Creación de la carpeta de configuración y archivos principales con LazyVim.",
+    "crumbs": [
+      "Unidad 0: Introducción a Neovim",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>**Lección 2**: Instalación de Neovim y Configuración Básica</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad0/2_instalacion.html#configuración-básica-de-neovim.",
+    "href": "unidades/unidad0/2_instalacion.html#configuración-básica-de-neovim.",
+    "title": "Lección 2: Instalación de Neovim y Configuración Básica",
+    "section": "Configuración básica de Neovim.",
+    "text": "Configuración básica de Neovim.\nPara realizar la instalación de LazyVim, puedes seguir los siguientes pasos:\n\nAbre una terminal.\n\nEmpezamos la instalación de algunas dependencias necesarias como NerdFonts, lazygit, C, livegreep, fd, la lista completa la podemos encontrar en la página oficial de lazyvim\n\n\n\n\n\n\nTip\n\n\n\nPara instalar las dependencias en Ubuntu, puedes ejecutar el siguiente comando:\nsudo apt install fonts-firacode lazygit ccls livegrep fd-find\n\n\n\nClona el repositorio de LazyVim:\n\ngit clone https://github.com/LazyVim/starter ~/.config/nvim\n\nEliminación del directorio .git\n\nrm -rf ~/.config/nvim/.git\n\nAbre Neovim:\n\nnvim\n\n\n\n\n\n\nTip\n\n\n\nUna sugerencia es mantener la configuración de nvim con lazy en un repositorio público o primvado en github, gitlab o bitbucket.\nDe esta forma cada vez que se realice un formateo, instalación de nvim en un servidor u otro entorno se pueda migrar de forma sencilla.\n\n\nPara más información se recomienda visitar la página oficial de LazyVim",
+    "crumbs": [
+      "Unidad 0: Introducción a Neovim",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>**Lección 2**: Instalación de Neovim y Configuración Básica</span>"
     ]
   },
   {
